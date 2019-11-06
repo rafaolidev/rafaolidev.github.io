@@ -1,0 +1,69 @@
+body {
+	position: relative;
+	align-items: center;
+	margin:auto;
+}
+header {
+	width: 324px;
+	margin: auto;
+}
+.containertop {
+	height: 70px;
+	border:1px solid #CCC;
+	margin-top: 25px;
+	font-size: 15px;
+	background-color:#EEE9E9;
+	position: relative;
+}
+.moviename { 
+	float: left;
+	width: 250px;
+	height: 12px;
+	margin-top: 10px;
+	margin-left: 10px;	
+}
+.movieleght {
+	float: left;
+	margin-top:20px;
+	margin-left: 10px;
+	font-family: arial;
+}
+.rottentomatoeslogo {
+	float: right;
+	font-size: 20px;
+	font-family: helvetica;
+	margin-top: -48px;
+	margin-left: 240px;
+	position: absolute;
+}
+.rotten {
+	float: right;
+}
+.avengers {
+  display:flex;
+  margin: auto;
+}
+.button{
+	display: block;
+    background-color:#CCC;
+    position: relative;
+    width: 180px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -48px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration:none;
+    border:1px solid #F2F2F2;
+    opacity: 0.8;
+    font-family: arial;
+    color: black;
+}
+footer {
+	border:1px solid #CCC;
+	width:322px;
+	margin: auto;
+	text-align: center;
+	margin-bottom:50px;
+}
