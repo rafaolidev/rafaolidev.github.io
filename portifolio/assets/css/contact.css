@@ -1,0 +1,53 @@
+html,body {
+	margin:0px;
+	background-image:url(../img/development.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+    height:100%;     
+}
+.top {
+	width:100%;
+	height:50px;
+	background-color:black;
+	color:white;
+	text-align: center;
+	line-height:50px;
+	margin-bottom:50px;
+}
+.center {
+	position: relative;
+    min-height: 100%;
+	width:500px;
+	margin:auto;
+	background-color:blue;
+}
+.img1 {
+	margin-left:5px;
+	display: inline-block;
+	width:160px;
+	height:200px;
+	background-color:green;
+	margin-top:24px;
+}
+.img2 {
+	display: inline-block;
+	width:160px;
+	height:200px;
+	background-color:green;
+}
+.img3 {
+	display: inline-block;
+	width:160px;
+	height:200px;
+	background-color:green;
+}
+footer {
+   height: 50px;
+   background: #0c0c0c;
+   color: #fff;
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
