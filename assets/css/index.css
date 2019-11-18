@@ -1,0 +1,165 @@
+body {
+	margin:0px;
+    background: url(../img/development.jpg)no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.menutop {
+	width: 100%;
+	color: #00FF40;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin:0px;
+}
+.name {
+	line-height:50px;
+	font-family:Courier New, monospace;
+	width:170px;
+	height:50px;
+	float:left;
+	font-size:21px;
+	text-shadow: 0.1em 0.1em 0.5em white;
+	margin-left:10px
+}
+.menutop ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.menutop li {
+	float:right;
+	margin-left: 30px;
+	margin-right: 30px;
+	height:30px;
+	line-height:30px;
+}
+.menutop li a {
+	text-decoration: none;
+	color:#00FF40;
+	line-height: 50px;
+	font-family:Courier New, monospace;
+	font-size: 20px;
+	text-shadow: 0.1em 0.1em 0.5em white;
+}
+.menutop li:hover a{
+	color: #04B404;
+}
+.language {
+	width: 100px;
+	height: 50px;
+	float: right;
+}
+.language img {
+	display: inline-block;
+	float: right;
+	padding-top:8px;
+	padding-right:10px;
+}
+.brflag {
+	line-height:50px;
+	margin: auto;
+}
+.centercontent {
+	width: 700px;
+	height: 300px;
+	margin-left: 7%;
+	clear: both;
+	font-weight: bold;
+}
+.title {
+	width: 700px;
+	height: 50px;	
+	
+}
+.title .titletext {
+	color: white;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: left;
+	margin-left:10px;
+	text-shadow: 0.1em 0.1em 0.5em black;
+}
+.description {
+	width: 600px;
+	height: 200px;
+}
+.descriptiontext {
+	color: white;
+	text-decoration:none;
+	font-family:arial, monospace;
+	font-size: 24px;
+    margin-left:10px;
+    text-align: justify;
+}
+.buttonleft {
+	background-color: rgba(0,255,0,0.3);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius:25px;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-family:Courier New, monospace;
+	float:left;
+	text-decoration: none;
+	color: white;
+}
+.buttonright {
+	background-color: rgba(0,255,0,0.3);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius:25px;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-family:Courier New, monospace;
+	float:left;
+	margin-left: 15px;
+	text-decoration: none;
+	color: white;
+}
+.buttonright:hover {
+	box-shadow: 5px 5px 5px black;
+}
+.buttonleft:hover {
+	box-shadow: 5px 5px 5px black;
+}
+@media (min-width:500px) and (max-width:560px) {
+	.centercontent {
+	width: 400px;
+	height: 300px;
+	margin-left:3%;
+	clear: both;
+	font-weight: bold;
+	}
+	.menutop {
+	height: 50px;
+    }
+    .menutop li {
+	float:left;
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:0px;
+	}
+	.name {
+		width:200px;
+		margin-top:1px;
+	}
+	.language{
+		float:right;
+		margin-top:1px;
+	}
+	.description{
+		width:450px;
+	}
+	.buttonleft {
+		margin-top:50px;
+	}
+	.buttonright {
+		margin-top:50px;
+	}
+}
