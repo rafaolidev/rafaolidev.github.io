@@ -167,11 +167,12 @@ body {
 }
 @media (min-width:300px) and (max-width:500px) {
 	.centercontent {
-	width: 270px;
+	width: 350px;
 	height: 300px;
 	margin-left:3%;
 	clear: both;
 	font-weight: bold;
+        font-size:20px;
 	}
 	.menutop {
 	height: 50px;
@@ -192,6 +193,7 @@ body {
 	}
 	.description{
 		width:200px;
+		font-size:30px;
 	}
 	.buttonleft {
 		margin-top:50px;
