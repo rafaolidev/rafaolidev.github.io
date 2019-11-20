@@ -1,5 +1,8 @@
+html, body {
+    height:100%;
+}
 body {
-	margin:0px;
+    margin:0;
     background: url(../img/development.jpg)no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
