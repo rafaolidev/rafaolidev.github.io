@@ -162,3 +162,39 @@ body {
 		margin-top:50px;
 	}
 }
+@media (min-width:300px) and (max-width:500px) {
+	.centercontent {
+	width: 270px;
+	height: 300px;
+	margin-left:3%;
+	clear: both;
+	font-weight: bold;
+	}
+	.menutop {
+	height: 50px;
+    }
+    .menutop li {
+	float:left;
+	margin-left:0px;
+	margin-right:5px;
+	margin-top:0px;
+	}
+	.name {
+		width:170px;
+		margin-top:1px;
+	}
+	.language{
+		float:right;
+		margin-top:1px;
+	}
+	.description{
+		width:200px;
+	}
+	.buttonleft {
+		margin-top:50px;
+	}
+	.buttonright {
+		margin-top:50px;
+	}
+}
+
