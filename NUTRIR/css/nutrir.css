@@ -3,26 +3,58 @@
 	padding: 0px;
 }
 body {
-	background-image:url("../imagens/comida.jpeg")center center no-repeat;
+	background-image:url("../imagens/comida.jpeg");
 	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1 {
+	text-shadow:0.3em 0.3em 0.2em gray;
+	font-family:Marker Felt, fantasy;
+	font-weight:900;
 }
 .janela input {
+	box-sizing: border-box;
 	display:block;
-	height: 15px;
+	height: 45px;
 	width: 400px;
 	margin: 5px;
-	border-radius:10px;
+	border-radius:30px;
 	border: 1px solid black;
 	font-size: 16px;
 	padding: 10px 20px;
 	text-align: center;
+	background-color: lightgray;
+	opacity: 0.5;
 }
 .janela {
 	/*background-color: blue;*/
 	width: 420px;
 	margin: 150px auto 0px auto;
 	text-align: center;
+	display: block;
+    
 }
-.acesssar {
-	background-color: black;
+.cadastro {
+	text-decoration: none;
+	color: black;
+	text-shadow:0.1em 0.1em 0.2em gray;
 }
+.submit {
+	cursor: pointer;
+}
+.cadastro:hover {
+	color: lime;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
