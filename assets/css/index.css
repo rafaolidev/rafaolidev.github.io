@@ -124,10 +124,27 @@ body {
 	text-decoration: none;
 	color: white;
 }
+.resume {
+	background-color: rgba(0,255,0,0.3);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius:25px;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-family:Courier New, monospace;
+	float:left;
+	margin-left: 15px;
+	text-decoration: none;
+	color: white;
+}
 .buttonright:hover {
 	box-shadow: 5px 5px 5px black;
 }
 .buttonleft:hover {
+	box-shadow: 5px 5px 5px black;
+}
+.resume {
 	box-shadow: 5px 5px 5px black;
 }
 @media (min-width:500px) and (max-width:560px) {
@@ -175,9 +192,10 @@ body {
         font-size:20px;
 	}
 	.menutop {
+	font-size:15px;
 	height: 50px;
     }
-    .menutop li {
+        .menutop li {
 	float:left;
 	margin-left:0px;
 	margin-right:5px;
@@ -196,10 +214,12 @@ body {
 		font-size:30px;
 	}
 	.buttonleft {
-		margin-top:100px;
+		margin-top:150px;
 	}
 	.buttonright {
-		margin-top:100px;
+		margin-top:150px;
 	}
+	.resume {
+		margin-top:10px;
 }
 
