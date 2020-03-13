@@ -13,6 +13,7 @@ h1 {
 	font-weight:900;
 }
 .janela input {
+	color:black;
 	box-sizing: border-box;
 	display:block;
 	height: 45px;
