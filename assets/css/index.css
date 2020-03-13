@@ -144,7 +144,7 @@ body {
 .buttonleft:hover {
 	box-shadow: 5px 5px 5px black;
 }
-.resume {
+.resume:hover {
 	box-shadow: 5px 5px 5px black;
 }
 @media (min-width:500px) and (max-width:560px) {
