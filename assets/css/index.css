@@ -195,11 +195,15 @@ body {
         font-size:20px;
 	}
 	.menutop {
-	height: 70px;
+	height: 100px;
         }
 	.nome {
         font-size:15px;
 	{
+	.description{
+		width:250px;
+		height:140px;
+	}
         .menutop li {
 	float:left;
 	margin-left:0px;
