@@ -181,6 +181,9 @@ body {
 	.buttonright {
 		margin-top:50px;
 	}
+	.resume {
+		margin-top:50px;
+	}
 }
 @media (min-width:300px) and (max-width:500px) {
 	.centercontent {
@@ -214,10 +217,10 @@ body {
 		font-size:30px;
 	}
 	.buttonleft {
-		margin-top:150px;
+		margin-top:200px;
 	}
 	.buttonright {
-		margin-top:150px;
+		margin-top:200px;
 	}
 	.resume {
 		margin-top:10px;
