@@ -187,7 +187,7 @@ body {
 }
 @media (min-width:250px) and (max-width:500px) {
 	.centercontent {
-	width: 150px;
+	width: 250px;
 	height: 150px;
 	margin-left:3%;
 	clear: both;
