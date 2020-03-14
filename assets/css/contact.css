@@ -66,4 +66,9 @@ html,body {
 	.top {
 		margin-bottom:15px;
 	}
+	.center {
+	position: relative;
+	height:250px;
+	width:300px;
+	margin:auto;
 }
