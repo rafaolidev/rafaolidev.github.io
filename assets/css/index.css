@@ -185,9 +185,9 @@ body {
 		margin-top:50px;
 	}
 }
-@media (min-width:300px) and (max-width:500px) {
+@media (min-width:250px) and (max-width:500px) {
 	.centercontent {
-	width: 300x;
+	width: 270x;
 	height: 150px;
 	margin-left:3%;
 	clear: both;
@@ -196,14 +196,14 @@ body {
 	}
 	.menutop {
 	height: 100px;
-        width:100%;
+        width:200px;
         }
 	.nome {
         font-size:15px;
 	{
 	.description{
-		width:250px;
-		height:140px;
+	width:250px;
+	height:140px;
 	}
         .menutop li {
 	float:left;
@@ -213,7 +213,7 @@ body {
 	font-size:15px;
 	}
 	.name {
-		width:170px;
+		width:200px;
 		margin-top:1px;
 	}
 	.language {
