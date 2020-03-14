@@ -190,9 +190,8 @@ body {
 	width: 250px;
 	height: 300px;
 	margin-left:3%;
-	clear: both;
 	font-weight: bold;
-        font-size:10px;
+        font-size:15px;
 	}
 	.description {
 	width:250px;
@@ -219,7 +218,6 @@ body {
 	}
 	.buttonright {
 		margin-top:200px;
-		background-color:red;
 	}
 	.resume {
 		margin-top:10px;
