@@ -193,7 +193,9 @@ body {
 	clear: both;
 	font-weight: bold;
         font-size:10px;
-	padding:15px;
+	}
+	.description {
+	width:250px;
 	}
 	.menutop {
 	height: 100px;
