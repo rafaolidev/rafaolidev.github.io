@@ -187,7 +187,7 @@ body {
 }
 @media (min-width:250px) and (max-width:500px) {
 	.centercontent {
-	width: 270x;
+	width: 100pxx;
 	height: 150px;
 	margin-left:3%;
 	clear: both;
@@ -196,15 +196,10 @@ body {
 	}
 	.menutop {
 	height: 100px;
-        width:200px;
         }
 	.nome {
         font-size:15px;
 	{
-	.description{
-	width:250px;
-	height:140px;
-	}
         .menutop li {
 	float:left;
 	margin-left:0px;
@@ -219,10 +214,6 @@ body {
 	.language {
 		float:right;
 		margin-top:1px;
-	}
-	.descriptiontext {
-		width:300px;
-		font-size:10px;
 	}
 	.buttonleft {
 		margin-top:200px;
