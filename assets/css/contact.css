@@ -62,7 +62,7 @@ html,body {
 	width:160px;
 	height:200px;
 }
-@media (min-width:500px) and (max-width:560px) {
+@media (min-width:300px) and (max-width:560px) {
 	.top {
 		margin-bottom:15px;
 	}
