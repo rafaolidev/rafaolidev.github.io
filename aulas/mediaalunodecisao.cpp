@@ -16,10 +16,16 @@ int main(void)
    if (media>=6) {
        cout<<"aprovado"<<endl;
        cout<<"sua media e "<<media<<endl;
+       if (media>=8) {
+           cout<<"parabens voce se esforcou"<<endl;
+       }
    }
    else {
        cout<<"REPROVADO"<<endl;
        cout<<"sua media e "<<media<<endl;
+       if (media<=3) {
+           cout<<"voce precisa estudar mais"<<endl;
+       }
    }   
    cout<<"Execute novamente para calcular outra media"<<endl;
    
