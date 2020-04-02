@@ -17,7 +17,7 @@ int main(void)
        cout<<"aprovado"<<endl;
        cout<<"sua media e "<<media<<endl;
    }
-   if (media<=5) {
+   else {
        cout<<"REPROVADO"<<endl;
        cout<<"sua media e "<<media<<endl;
    }   
@@ -25,5 +25,4 @@ int main(void)
    
    
    return 0;
-   
 }
