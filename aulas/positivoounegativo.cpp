@@ -24,6 +24,9 @@ int main(void)
          if (N<0) {
             cout<<"esse numero e negativo"<<endl;
         }
+        else {
+            cout<<"esse numero e postivo"<<endl;
+        }
     }
     return 0;
 }
