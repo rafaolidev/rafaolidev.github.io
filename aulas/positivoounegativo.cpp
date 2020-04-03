@@ -14,11 +14,15 @@ int main(void)
         if (N>0) {
             cout<<"esse numero e postivo"<<endl;
         }
+            else {
+                cout<<"esse numero e negativo"<<endl;
+            }
+
     }
     if ((N%2) == 1) {
         cout<<"o numero "<<N<<" e impar"<<endl;
          if (N<0) {
-            cout<<"esse numero e postivo"<<endl;
+            cout<<"esse numero e negativo"<<endl;
         }
     }
     return 0;
