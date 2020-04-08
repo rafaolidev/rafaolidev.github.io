@@ -77,7 +77,7 @@ body {
 }
 .stores-list {
     margin-left: 50px;
-    line-height: 20px;
+    line-height: 25px;
     width: 300px;
     font-size: 24px;
     padding-bottom: 20px;
@@ -110,7 +110,7 @@ body {
 .store-address2 {
     margin: auto;
     margin-top: 20px;
-    line-height: 20px;
+    line-height: 25px;
     width: 300px;
     font-size: 24px;
     padding-bottom: 20px;
