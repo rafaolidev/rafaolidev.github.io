@@ -1,3 +1,7 @@
+
+
+
+
 function initMap() {
 
     var losAngeles = {
@@ -68,3 +72,6 @@ function initMap() {
       }
 
   } 
+function displayStores(){
+  for(var store of store);
+}

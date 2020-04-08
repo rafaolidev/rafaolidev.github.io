@@ -6,4 +6,4 @@
 - Store locator (x) 
 - Add input box (x)
 - Add store list container (x)
-- Add individual store container (maybe)
+- Add individual store container (maybe)(x)
