@@ -161,7 +161,7 @@ function createMarker(latlng, name, address, index){
     icon:icon, 
   });
   var html = "<b>" + name + "</b> <br/>" + address;
-  google.maps.event.addListener(marker, 'click', function() {
+  google.maps.event.addListener(marker, 'mouseover', function() {
     infoWindow.setContent(html);
     infoWindow.open(map, marker);
   });
