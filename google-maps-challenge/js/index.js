@@ -348,9 +348,11 @@ function createMarker(latlng, name, address, index,phoneNumber, openStatusText, 
            ${address}
            </div>
            <div class="phoneNumber">
-           <div class="circle">
+           <a href="https://www.google.com/maps/dir//45th+St+%26+The+Strand,+El+Segundo,+CA+90245,+EUA/@33.9053296,-118.4242724,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80c2b1615598983f:0x5272e5cabfbe90da!2m2!1d-118.4220837!2d33.9053296!3e0" target="_blank">
+           <div  class="circle">
            <i class="fas fa-exclamation-triangle"></i>
            </div>
+           </a>
            ${phoneNumber}
            </div>
     </div>
