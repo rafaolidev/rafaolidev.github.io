@@ -16,6 +16,7 @@ function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: losAngeles,
         zoom: 11,
+        animation: google.maps.Animation.DROP,
         mapTypeId: 'roadmap',     
         styles: [
   {
@@ -299,6 +300,8 @@ function searchStores(){
     showStoresMarkers(foundStores);
     displayStores(foundStores);
     setOnClickListener();
+
+    
 }
 function clearLocations(){
     infoWindow.close();
@@ -314,6 +317,7 @@ function setOnClickListener(stores){
             new google.maps.event.trigger(markers[index],'click');
         })
     })
+    
 }
 
 function showStoresMarkers(stores){
@@ -345,10 +349,10 @@ function createMarker(latlng, name, address, index,phoneNumber, openStatusText, 
            <div class="circle">
            <img src="https://cdn1.iconfinder.com/data/icons/holiday-and-recreation/91/06-512.png">
            </div>
+           <a class="infos"href="https://www.google.com/maps/dir/?api=1&destination=${address}" targer="blank"> 
            ${address}
            </div>
            <div class="phoneNumber">
-           <a href="https://www.google.com/maps/dir//45th+St+%26+The+Strand,+El+Segundo,+CA+90245,+EUA/@33.9053296,-118.4242724,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80c2b1615598983f:0x5272e5cabfbe90da!2m2!1d-118.4220837!2d33.9053296!3e0" target="_blank">
            <div  class="circle">
            <i class="fas fa-exclamation-triangle"></i>
            </div>
@@ -357,23 +361,39 @@ function createMarker(latlng, name, address, index,phoneNumber, openStatusText, 
            </div>
     </div>
 
-    
-    
-    
     `    ;
+    
+    
     var icon = {
         url: "http://icons.iconarchive.com/icons/sonya/swarm/256/Surfer-icon.png", // url
         scaledSize: new google.maps.Size(50, 50)
       };
+      
     var marker = new google.maps.Marker({
       map: map,
       icon:icon,
       position: latlng,
       label: index.toString()
     });
+    marker.addListener('click', toggleBounce);
     google.maps.event.addListener(marker, 'click', function() {
       infoWindow.setContent(html);
       infoWindow.open(map, marker);
+
     });
-    markers.push(marker);
+    function toggleBounce() {
+      if (marker.getAnimation() !== null) {
+        marker.setAnimation(null);
+      } else {
+        marker.setAnimation(google.maps.Animation.BOUNCE);
+      }
+
+     
+  }
+  
+  marker.addListener('click', toggleBounce);
+  markers.push(marker);
+
+
+
 }

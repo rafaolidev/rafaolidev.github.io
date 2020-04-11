@@ -186,5 +186,9 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-right: 8px;
+}
+.infos {
+    text-decoration: none;
+    color: black;
+}
 }
