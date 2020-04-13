@@ -1,0 +1,171 @@
+* {box-sizing: border-box}
+.slide1, .slide2 {display: none}
+img {vertical-align: middle;}
+
+body {
+	margin:0;
+	font-family: arial;
+	font-size: 12px;
+}
+.topo {
+	height:60px;
+	background-color:#333333;
+	color: white;
+}
+.topoint {
+    width: 100%;
+    max-width: 1040px;
+    height:60px;
+    margin:auto;
+}
+.topoleft {
+	width:55%;
+	height:60px;
+	float:left;
+}
+.toporight{
+    line-height: 50px;
+	text-align: right;
+	width:45%;
+	height:60px;
+	float:right;
+	margin-top:2px
+}
+.topoleft ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.topoleft li {
+    float:left;
+    font-size: 24px;
+	margin-left: 15px;
+	margin-right: 15px;
+	height:60px;
+	line-height:60px;
+}
+.topoleft li a {
+	text-decoration: none;
+	color: white;
+
+}
+.topoleft li .ativo {
+    color: gray;
+}
+.toporight a {
+	float:right;
+}
+.toporight img {
+    width:35px;
+    height:35px;
+	margin-right:4px;
+}
+.middle-content {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    background-color: red;
+    height: 150px;
+}
+.logo {
+    width: 300px;
+    background-color: blue;
+    height: 300px;
+}
+.advertising {
+    margin-left: 25%;
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    border: 2px black solid;
+    box-shadow: 4px 10px 4px 3px black;
+}
+.slideshow-container {
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    max-width: 1000px;
+    position: relative;
+    width: 700px;
+    height: 500px;
+ }
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+ }
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+.slideshow-container img{
+      width: 100%;
+      height: 500px;
+}
+.news-title {
+    right: 50px;
+    top: 300px;
+    position: absolute;
+    width: 150px;
+    height: 700px;
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.enlarge1:hover img {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.enlarge2:hover .twitter{
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.enlarge3:hover .facebook {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.enlarge4:hover .instagramicon {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.enlarge5:hover .linkedinicon {
+    width: 50px;
+    height: 50px;transition: 0.6s ease;
+}
+.enlarge6:hover .whatsappicon {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+
+
