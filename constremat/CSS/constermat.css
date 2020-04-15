@@ -19,14 +19,14 @@ body {
     margin:auto;
 }
 .topoleft {
-	width:55%;
+	width:60%;
 	height:60px;
 	float:left;
 }
 .toporight{
     line-height: 50px;
 	text-align: right;
-	width:45%;
+	width:30%;
 	height:60px;
 	float:right;
 	margin-top:2px
@@ -55,41 +55,40 @@ body {
 .toporight a {
 	float:right;
 }
+.submenu-ho {
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #333333;
+    display: none;
+    position: absolute;
+}
 .toporight img {
     width:35px;
     height:35px;
 	margin-right:4px;
 }
 .middle-content {
-    margin-top: 50px;
     display: flex;
     width: 100%;
-    background-color: red;
     height: 150px;
 }
-.logo {
-    width: 300px;
-    background-color: blue;
-    height: 300px;
+.logo img {
+    width: 400px;
+    height: 280px;
 }
 .advertising {
-    margin-left: 25%;
-    background-color: green;
+    margin-left: 15%;
     width: 300px;
     height: 150px;
     line-height: 150px;
-    border-radius: 50px;
     text-align: center;
     font-size: 25px;
-    color: white;
-    font-weight: bold;
-    border: 2px black solid;
-    box-shadow: 4px 10px 4px 3px black;
+    color: gray;
 }
 .slideshow-container {
-    border-radius: 25px;
     overflow: hidden;
-    margin-top: 90px;
+    margin-top: 20px;
     margin-right: auto;
     margin-bottom: 0;
     margin-left: auto;
@@ -127,18 +126,39 @@ body {
       width: 100%;
       height: 500px;
 }
-.news-title {
+.widget-container {
     right: 50px;
     top: 300px;
     position: absolute;
-    width: 150px;
+    width: 250px;
     height: 700px;
-    background-color: pink;
+    background-color:aliceblue;
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow-y:hidden;
+    overflow-x:hidden;
 }
-.enlarge1:hover img {
+.news-title {
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    background-color:#778899;
+    color: white;
+    font-family:serif;
+    font-size:20px;
+}
+.news {
+    font-family:serif;
+    width: 250;
+    height: 650px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+.enlarge1:hover .mail {
     width: 50px;
     height: 50px;
     transition: 0.6s ease;
@@ -167,5 +187,51 @@ body {
     height: 50px;
     transition: 0.6s ease;
 }
-
-
+.depoimentos-container {
+    width: 250px;
+    height: 600px;
+    background-color: aliceblue;
+    top: 400px;
+    position: absolute;
+    left: 20px;
+    text-align: center;
+}
+.depoimentos-titulo {
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 63px;
+    background-color: #778899;
+    color: white;
+    font-family: serif;
+}
+.depoimentos {
+    padding:10px;
+}
+li:hover .submenu-ho {
+    margin:0px;
+    border-radius: 5px;
+    transition: 0.6s ease;
+    display: block;
+}
+.partnership:hover, .getintouch:hover, .ho:hover, .home:hover {
+    color: gray;
+    font-size: 30px;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+.rodape {
+    text-align:center;
+    width: 100%;
+    height: 150px;
+    margin-top: 90px;
+    background-image: linear-gradient(#333333,gray);
+    border-top: solid 15px #a09a9a;
+}
+.info1 {
+    height: 112px;
+    width: 244px;
+    display: inline-block;
+    background-color: crimson;
+    margin-top: 12px;
+}
